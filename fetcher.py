@@ -10,5 +10,5 @@ with open("names.csv", "w") as file:
 with open("names.csv", "a") as file:
     file.write("Name\n")
     for champ in data_in["data"].values():
-        file.write(f"{champ["name"]}\n")
+        file.write(f"\"{champ["name"]}\"\n")
         print(f"Added {champ["name"]}\n")
