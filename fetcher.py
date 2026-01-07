@@ -4,8 +4,7 @@ versions = requests.get("https://ddragon.leagueoflegends.com/api/versions.json")
 data_in = requests.get(f"https://ddragon.leagueoflegends.com/cdn/{versions[0]}/data/en_US/champion.json").json()
 
 
-with open("names.csv", "w") as file:
-    file.write("")
+open("names.csv", "w").close()
 
 with open("names.csv", "a") as file:
     file.write("Name\n")
