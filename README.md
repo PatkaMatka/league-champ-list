@@ -11,4 +11,6 @@ fetcher.py updates the file names.csv with all the current champion names throug
 <p> 
 icon fetcher creates a folder with all champion icons 
 </p>
+<p>
 currently thats all
+</p>
